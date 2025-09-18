@@ -17,7 +17,7 @@
   },
   "include": [
     "src/**/*"
-  ],
+, "tests/bpmn-debug.test.ts", "tests/svg-comparison.test.ts", "tests/svg-generator.test.ts"  ],
   "exclude": [
     "node_modules",
     "dist",

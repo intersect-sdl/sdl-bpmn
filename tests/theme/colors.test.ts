@@ -13,7 +13,7 @@ import {
   type OrnlColor,
   type OrnlAccent,
   type BpmnSemanticColor
-} from '../../src/theme/colors.js';
+} from '../../src/theme/colors';
 
 describe('ORNL Colors', () => {
   it('should export primary ORNL brand colors', () => {

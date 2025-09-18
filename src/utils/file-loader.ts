@@ -108,7 +108,7 @@ export class FileLoadError extends Error {
  * const result = await loadBpmnFile('./workflow.bpmn');
  * 
  * if (result.validation?.isValid) {
- *   console.log('Valid BPMN loaded successfully');
+ *   //console.log('Valid BPMN loaded successfully');
  * }
  * ```
  */

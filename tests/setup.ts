@@ -10,5 +10,5 @@
 };
 
 // Setup console for better test output
-console.warn = console.warn || console.log;
-console.error = console.error || console.log;
+console.warn = console.warn || //console.log;
+console.error = console.error || //console.log;

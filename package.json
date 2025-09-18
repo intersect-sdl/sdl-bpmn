@@ -15,7 +15,7 @@
       "import": "./dist/core/index.js"
     },
     "./theme": {
-      "types": "./dist/theme/index.d.ts", 
+      "types": "./dist/theme/index.d.ts",
       "import": "./dist/theme/index.js"
     },
     "./utils": {
@@ -49,14 +49,16 @@
   "license": "MIT",
   "dependencies": {
     "bpmn-js": "^17.11.1",
+    "bpmn-js-headless": "^0.1.0",
     "jsdom": "^25.0.0"
   },
   "devDependencies": {
     "@types/jsdom": "^21.1.7",
     "@typescript-eslint/eslint-plugin": "^8.5.0",
-    "@typescript-eslint/parser": "^8.5.0",
+    "@typescript-eslint/parser": "^8.40.0",
     "@vitest/coverage-v8": "^2.0.5",
     "eslint": "^9.9.1",
+    "playwright": "^1.54.2",
     "typescript": "^5.5.4",
     "vitest": "^2.0.5"
   },

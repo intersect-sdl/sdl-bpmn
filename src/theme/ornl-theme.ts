@@ -72,7 +72,7 @@ export const DEFAULT_ORNL_THEME: Required<BpmnThemeOptions> = {
  * @example
  * ```typescript
  * const cssVars = generateOrnlCssVariables();
- * console.log(cssVars);
+ * //console.log(cssVars);
  * // Output: "--ornl-primary: #00662C; --ornl-secondary: #00454D; ..."
  * ```
  */
