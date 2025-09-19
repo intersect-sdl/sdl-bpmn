@@ -25,10 +25,13 @@
   },
   "files": [
     "dist/**/*",
-    "README.md"
+    "src/**/*",
+    "README.md",
+    "tsconfig.json"
   ],
   "scripts": {
     "build": "tsc",
+    "postinstall": "tsc",
     "dev": "tsc --watch",
     "test": "vitest",
     "test:run": "vitest run",
